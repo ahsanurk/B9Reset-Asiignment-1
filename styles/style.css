@@ -1,0 +1,23 @@
+/* Azeret Mono Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0px auto;
+    padding: 0;
+}
+body{
+    font-family: "Azeret Mono", monospace;
+}
+
+.header-title{
+    width: 1440px;
+    height: 131px;
+    border: 1px solid red;
+    display: flex;
+    /* padding: 0px 150px; */
+}
+
+.btn{
+    width: 244px;
+    height: 57px;
+}
