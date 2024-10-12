@@ -102,7 +102,8 @@ body {
 }
 
 .why-web-dev .why-web-dev-title,
-.inspiration-title {
+.inspiration-title,
+.ct-title {
     color: rgb(13, 19, 33);
     font-size: 32px;
     font-weight: 800;
@@ -110,7 +111,8 @@ body {
 }
 
 .content-section-description,
-.inspiration-desc {
+.inspiration-desc,
+.ct-description {
     color: rgb(13, 19, 33);
     font-size: 16px;
     font-weight: 400;
@@ -173,18 +175,21 @@ body {
     margin: 90px 150px 150px;
 
 }
-.inspiration-content{
+
+.inspiration-content,
+.ct-content {
     padding-left: 144px;
     padding-right: 144px;
 }
+
 yt-video {
     border: 1px solid rgba(13, 19, 33, 0.2);
     padding: 32px;
     border-radius: 16px;
-    
+
 }
 
-.yt-video{
+.yt-video {
     border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px;
     padding: 32px;
@@ -193,8 +198,61 @@ yt-video {
     width: 1140px;
 }
 
-.yt-video iframe{
+.yt-video iframe {
     border-radius: 16px;
     height: 100%;
     width: 100%;
+}
+
+.ct-container {
+    margin: 150px 150px 100px;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.skills-box {
+    border: 1px;
+    border-radius: 16px;
+    padding: 40px;
+    background: rgba(255, 76, 30, 0.05);
+    width: 365px;
+}
+
+.bg-color1{
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.bg-color2{
+    background: rgba(255, 223, 0, 0.05);
+}
+
+.skill {
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    text-align: left;
+}
+
+.skill-desc {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.lm {
+    margin-top: 20px;
+}
+
+.lm a{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+    text-decoration-line: underline;
 }
