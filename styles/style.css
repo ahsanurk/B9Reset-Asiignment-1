@@ -1,6 +1,7 @@
 /* Azeret Mono Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 
+/* Common styles */
 * {
     margin: 0, auto;
     padding: 0;
@@ -11,17 +12,18 @@ body {
     background: rgb(255, 255, 255);
 }
 
-.header-container {
+/* Nav or header styles */
+.nav-container {
     /* width: 1440px;
     height: 131px; */
     /* border: 1px solid red; */
-    padding: 32px 150px;
+    margin: 32px 150px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.header-container .title {
+.nav-container .title {
     color: rgb(13, 19, 33);
     /* font-family: Azeret Mono; */
     font-size: 28px;
@@ -31,7 +33,7 @@ body {
     text-align: left;
 }
 
-.header-container .btn {
+.nav-container .btn {
     /* box-sizing: border-box; */
     border: 1px solid rgb(13, 19, 33);
     border-radius: 8px;
@@ -44,4 +46,70 @@ body {
     line-height: 23px;
     letter-spacing: 0%;
     text-align: center;
+    cursor: pointer;
+}
+
+/* hero section styles start here */
+
+#hero-img {
+    background-image: url('../assets/Hero-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-position-x: center; */
+    /* position: absolute; */
+    background-size: cover;
+    width: 100%;
+    height: 652px;
+    /* margin: 26px 221px 45px; */
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 26px 221px 45px;
+}
+
+#hero-img .hero-container .coder-image {
+    width: 173px;
+    height: 229px;
+    margin-top: 26px;
+}
+
+#hero-img .hero-container .title {
+    text-align: center;
+    color: rgb(13, 19, 33);
+    /* font-family: Azeret Mono; */
+    font-size: 48px;
+    font-weight: 800;
+    /* line-height: 68px; */
+    /* letter-spacing: 0%; */
+    /* text-align: center; */
+}
+
+#hero-img .hero-container .description {
+    text-align: center;
+    color: rgb(13, 19, 33);
+    /* font-family: Azeret Mono; */
+    font-size: 16px;
+    font-weight: 400;
+    /* line-height: 26px; */
+    /* letter-spacing: 0%; */
+    /* text-align: center; */
+}
+
+.contact-btn button {
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    width: 244px;
+    height: 65px;
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    /* line-height: 23px; */
+    /* letter-spacing: 0%; */
+    text-align: center;
+    cursor: pointer;
+    margin-top: 32px;
 }
