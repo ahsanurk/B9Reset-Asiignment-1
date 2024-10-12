@@ -161,6 +161,7 @@ body {
     font-size: 20px;
     font-weight: 600;
     text-align: center;
+    cursor: pointer;
 }
 
 .content-section-text-left {
@@ -204,6 +205,7 @@ yt-video {
     width: 100%;
 }
 
+/* Current target styles start here */
 .ct-container {
     margin: 150px 150px 100px;
 }
@@ -223,11 +225,11 @@ yt-video {
     width: 365px;
 }
 
-.bg-color1{
+.bg-color1 {
     background: rgba(0, 76, 232, 0.05);
 }
 
-.bg-color2{
+.bg-color2 {
     background: rgba(255, 223, 0, 0.05);
 }
 
@@ -249,10 +251,78 @@ yt-video {
     margin-top: 20px;
 }
 
-.lm a{
+.lm a {
     color: rgb(13, 19, 33);
     font-size: 16px;
     font-weight: 700;
     text-align: left;
     text-decoration-line: underline;
+}
+
+/* I need support section styles start here */
+.need-support-container {
+    margin: 50px 150px 80px;
+    background-image: linear-gradient(
+    180deg, rgb(16, 16, 16) -19.5%,
+    rgb(16, 16, 16, 0) 100%), 
+    url('../assets/handshake.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    width: 1200px;
+    height: 313px;
+}
+
+.support-content {
+    padding: 64px 48px;
+}
+
+.support-title {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.support-desc {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-left: 219px;
+    margin-right: 219px;
+}
+
+.inpt-sub {
+    margin: 0px 180px;
+}
+
+.inpt-sub input[type="text"] {
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 19px 20px;
+    width: 548px;
+    height: 57px;
+}
+
+input::placeholder {
+    color: rgba(13, 19, 33, 0.4);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.inpt-sub input[type="submit"] {
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    width: 120px;
+    height: 57px;
+
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
 }
