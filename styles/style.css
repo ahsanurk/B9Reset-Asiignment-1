@@ -101,14 +101,16 @@ body {
     /* text-align: center; */
 }
 
-.why-web-dev .why-web-dev-title {
+.why-web-dev .why-web-dev-title,
+.inspiration-title {
     color: rgb(13, 19, 33);
     font-size: 32px;
     font-weight: 800;
     text-align: center;
 }
 
-.content-section-description {
+.content-section-description,
+.inspiration-desc {
     color: rgb(13, 19, 33);
     font-size: 16px;
     font-weight: 400;
@@ -159,9 +161,40 @@ body {
     text-align: center;
 }
 
-.content-section-text-left{
+.content-section-text-left {
     align-items: start;
     width: 477px;
     height: auto;
     margin: 0px 101px 25px 0px;
+}
+
+/* inspiration section styles start here */
+.inspiration {
+    margin: 90px 150px 150px;
+
+}
+.inspiration-content{
+    padding-left: 144px;
+    padding-right: 144px;
+}
+yt-video {
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    padding: 32px;
+    border-radius: 16px;
+    
+}
+
+.yt-video{
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    padding: 32px;
+    margin-top: 48px;
+    height: 550px;
+    width: 1140px;
+}
+
+.yt-video iframe{
+    border-radius: 16px;
+    height: 100%;
+    width: 100%;
 }
