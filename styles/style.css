@@ -196,7 +196,7 @@ yt-video {
     padding: 32px;
     margin-top: 48px;
     height: 550px;
-    width: 1140px;
+    /* width: 1140px;  */
 }
 
 .yt-video iframe {
@@ -269,8 +269,8 @@ yt-video {
     background-size: cover;
     background-position: center;
     border-radius: 16px;
-    width: 1200px;
-    height: 313px;
+    /* width: 1200px;
+    height: 313px; */
 }
 
 .support-content {
