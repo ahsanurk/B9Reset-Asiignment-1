@@ -103,7 +103,7 @@ body {
 
 .why-web-dev .why-web-dev-title,
 .inspiration-title,
-.ct-title {
+.ct-title, .nt-title {
     color: rgb(13, 19, 33);
     font-size: 32px;
     font-weight: 800;
@@ -112,7 +112,7 @@ body {
 
 .content-section-description,
 .inspiration-desc,
-.ct-description {
+.ct-description, .nt-description {
     color: rgb(13, 19, 33);
     font-size: 16px;
     font-weight: 400;
@@ -178,9 +178,10 @@ body {
 }
 
 .inspiration-content,
-.ct-content {
+.ct-content, .nt-content {
     padding-left: 144px;
     padding-right: 144px;
+    margin-bottom: 48px;
 }
 
 yt-video {
@@ -206,7 +207,7 @@ yt-video {
 }
 
 /* Current target styles start here */
-.ct-container {
+.ct-container, .nt-container {
     margin: 150px 150px 100px;
 }
 
@@ -347,6 +348,24 @@ input::placeholder {
     text-align: center;
 }
 
-.footer-social-icons a{
+.footer-social-icons a {
+    margin-left: 10px;
+}
+
+/* Next target section styles start here */
+.next-skills {
+    padding: 40px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 24px;
+
+}
+
+.skill-desc-content{
     margin-left: 10px;
 }
